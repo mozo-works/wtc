@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>product 1</title>
+      <link>http://example.org/product/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/product/1/</guid>
+      <description>Qui irure exercitation Lorem nisi laboris in culpa consectetur aute qui ad. Laborum voluptate laboris labore occaecat aute culpa. Sint do laboris exercitation excepteur nostrud irure sunt duis aliquip. Dolore dolore incididunt esse mollit sunt et ex. Tempor incididunt cupidatat pariatur nulla cillum Lorem Lorem id officia id.
+Aliquip ut magna cupidatat nisi adipisicing eu exercitation labore labore est id deserunt culpa cillum. Nostrud nostrud deserunt labore non amet fugiat occaecat ipsum et est.</description>
+    </item>
+    
+  </channel>
+</rss>

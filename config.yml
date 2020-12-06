@@ -1,0 +1,12 @@
+title: "WTC"
+baseURL: "http://example.org/"
+
+languageCode: "en-us"
+languageLang: en
+
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+
+theme: wtc
