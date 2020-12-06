@@ -8,10 +8,11 @@
         {{ range where .Site.RegularPages "Type" "product" }}
         <li class="col-4">
             <div class="card my-3">
-                <img src="//cdn.quv.kr/og8ll101e/up/5ea68e3f9f1a3_1920.jpg" class="card-img-top" alt="">
+                {{ if .Params.image }}<img src="{{ .Params.image }}" class="card-img-top" alt="">{{ else }}
+                <img src="//cdn.quv.kr/og8ll101e/up/5ea68e3f9f1a3_1920.jpg" class="card-img-top" alt="">{{ end }}
                 <div class="card-body">
                     <h3><a class="text-muted" href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">{{ .Content | truncate 200}}</p>
                 </div>
             </div>
         </li>
