@@ -6,7 +6,7 @@
     <h2 class="text-center text-muted my-3">Products</h2>
     <ul class="row list-unstyled">
         {{ range where .Site.RegularPages "Type" "product" }}
-        <li class="col-4">
+        <li class="col-md-4">
             <div class="card my-3">
                 {{ if .Params.image }}<img src="{{ .Params.image }}" class="card-img-top" alt="">{{ else }}
                 <img src="//cdn.quv.kr/og8ll101e/up/5ea68e3f9f1a3_1920.jpg" class="card-img-top" alt="">{{ end }}
