@@ -9,3 +9,6 @@ disableKinds:
   - taxonomyTerm
 
 theme: wtc
+
+taxonomies:
+  category: categories
